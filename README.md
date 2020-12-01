@@ -1,3 +1,5 @@
+<img src="https://static.mparticle.com/sdk/mp_logo_black.svg" width="280">
+
 # MP Ruby SDK Example
 This repo contains a simple Ruby file that when ran (```ruby ruby-mp-sdk.rb```) sends a commerce, custom, and session events. You can see more methods [here](https://docs.mparticle.com/developers/server/ruby/)
 
