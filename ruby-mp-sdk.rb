@@ -2,8 +2,8 @@ require 'mparticle'
 
 # set credentials
 config = MParticle::Configuration.new
-config.api_key = 'us1-4e27eceae24a0c4a85f014ec98de88b0'
-config.api_secret = 'ER3fm1YjEPg55IZueBgZj5-i5qjuygEw1lI-z_KiLMEu2HlINKdxMbI4X6GsZ772'
+config.api_key = 'API KEY'
+config.api_secret = 'SECRET'
 
 api_instance = MParticle::EventsApi.new(config)
 
@@ -13,7 +13,7 @@ batch.environment = 'development'
 # set identity 
 user_identities = MParticle::UserIdentities.new
 user_identities.customerid = '12345'
-user_identities.email = 'miles@cool.com'
+user_identities.email = 'miles@gmail.com'
 
 # set any IDs that you have for this user
 device_info = MParticle::DeviceInformation.new
