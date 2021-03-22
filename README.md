@@ -9,6 +9,7 @@ This repo contains a simple Ruby file that when ran (```ruby ruby-mp-sdk.rb```) 
 
 # Getting Started 
 
-1. Git clone the repo and then cd into the directory. 
-2. Enter ```ruby ruby-mp-sdk.rb``` in the terminal 
-3. Check console for print message confirming upload. Check Livestream as well
+1. Git clone the repo and then cd into the directory.
+2. Enter ```gem install mparticle``` in the terminal. 
+3. Once you installed the mparticle gem, enter ```ruby ruby-mp-sdk.rb``` in the terminal.
+4. Check console for print message confirming upload. Check Livestream as well.
